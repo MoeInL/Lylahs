@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.p1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header p{
+    display: inline-block;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+}
+.header{
+    border-bottom: 1px solid white;
+}
+.location{
+   margin-left:5%;
+}
+.contacts{
+   position: relative;
+   float: right;
+}
+.welcome {
+    background: transparent;
+    width: 500px;
+    height: 100px;
+    position:absolute;
+    top: 42%;
+    right: 0%;
+    left: 0%;
+    margin: 0px auto;
+}
+.strikethrough{
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.strikethrough:before,.welcome .strikethrough:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid white;
+    margin: auto;
+}
+.name{
+    text-align: center;
+    font-size: 6em;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 8px;
+    padding-left: 30px;
+}
+.options{
+    display: flex;
+    justify-content: right;
+}
+.options p{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    float: right;
+    margin: 3% 0%;
+    padding: 10px 30px;
+}
+.options .button{
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    text-align: center;
+    margin-right: 2%;
+}
+.button:hover{
+    background-color: black;
+    border-color: black;
+}

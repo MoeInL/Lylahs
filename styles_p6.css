@@ -1,0 +1,35 @@
+.p6{
+    width: 100%;
+    height: 100vh;
+    margin-top: 5%;
+}
+.p6wrapper{
+    height: 100%;
+    background-image: url(img/night.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p6wrapper a{
+    margin-top: 2%;
+    color: white;
+    text-decoration: none;
+    padding: 5px 50px;
+    border: 3px orange solid;
+}
+.p6wrapper a:hover{
+    background-color: orange;
+}
+.p6strike{
+    color: orange;
+    font-size: 2em;
+    margin-bottom: 2%;
+    margin-top: 8%;
+}
+.p6title{
+    color: white;
+    font-size: 5em;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,62 @@
+.p2{
+    width: 100%;
+    height: 120vh;
+    line-height: 1.8;
+}
+.intro{
+    display: block;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 7%;
+    width: 800px;
+    height: 20%;
+}
+
+.title{
+    font-size: 15px;
+    font-family:Garamond, serif;
+    font-weight: bold;
+    color: red; 
+    letter-spacing: 2px;
+}
+.bigTitle{
+    font-size: 50px;
+    font-family: Lucida Handwriting;
+}
+.textImg{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 5%;
+}
+.wrapper{
+    position: relative;
+    margin-left: 10%;
+    height: 100%;
+}
+.textforp2{
+    font-size: 1vw;
+    font-family: Georgia;
+    width: 85%;
+} 
+.vImg{
+    border-radius: 5%;
+    height: 100%;
+    margin-right: 10%;
+}
+.menuLink {
+    color: white;
+    font-family: Georgia;
+    background-color: red;
+    padding: 10px 35px;
+    text-decoration: none;
+}
+.hImg{
+    max-width:85%;
+    border-radius: 5%;
+    position:absolute ;
+    bottom: 0;
+}
+
